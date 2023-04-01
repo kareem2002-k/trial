@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import Sidebar from '../components/Sidebar'
 import Pricing from '../components/Pricing-Sub'
 
-export default class Subscription extends Component {
+class Subscription extends Component {
     render() {
         return (
             <div  className="flex flex-col items-center justify-center h-screen">
@@ -20,3 +20,4 @@ export default class Subscription extends Component {
         )
     }
 }
+export default Subscription;

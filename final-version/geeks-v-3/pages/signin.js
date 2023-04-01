@@ -2,7 +2,7 @@ import React from 'react'
 import { NextSeo } from "next-seo";
 
 
-export default function login() {
+function login() {
   return (
     <div>
         <NextSeo
@@ -66,3 +66,4 @@ export default function login() {
     </div>
   )
 }
+export default signin;

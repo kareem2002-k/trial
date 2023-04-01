@@ -2,7 +2,7 @@ import React from 'react'
 import { NextSeo } from "next-seo";
 import Adminbar from '@/components/Adminbar';
 
-export default function Subscribers_admin() {
+ function Reservations() {
   return (
     <div>
       <Sidebar />
@@ -66,3 +66,5 @@ export default function Subscribers_admin() {
 </div>
     ) ;
 }
+
+export default Reservations;

@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { useTheme } from "next-themes";
 import Link from "next/link";
 
-export default function Header() {
+ function Header() {
   
   const [navbarOpen, setNavbarOpen] = useState(false);
   const [mounted, setMounted] = useState(false);
@@ -131,3 +131,4 @@ var x ="/images/black.png"
     </header>
   );
 }
+export default Header;

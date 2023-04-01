@@ -7,7 +7,7 @@ import Sponsors from "../components/Sponsors";
 import Features from "../components/Features";
 import Pricing from "../components/Pricing";
 
-export default function Home() {
+ function Home() {
   return (
     <div className="bg-white dark:bg-black">
       <NextSeo
@@ -76,3 +76,4 @@ export default function Home() {
     </div>
   );
 }
+export default Home;

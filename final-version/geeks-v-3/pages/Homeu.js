@@ -5,7 +5,7 @@ import Sidebar from '@/components/Sidebar';
 import Pricing from "../components/Pricing";
 import image from "next/dist/client/legacy/image";
 
-export default class Homeu extends Component {
+ class Homeu extends Component {
     render() {
         return (
             <div>
@@ -94,3 +94,4 @@ export default class Homeu extends Component {
     }
 
 }
+export default Homeu;

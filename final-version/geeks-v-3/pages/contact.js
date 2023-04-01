@@ -5,7 +5,7 @@ import Head from "next/head";
 import { NextSeo } from "next-seo";
 
 
-export default function contact() {
+ function contact() {
   return (
     <div>
         <NextSeo
@@ -51,3 +51,4 @@ export default function contact() {
     </div>
   )
 }
+export default contact;

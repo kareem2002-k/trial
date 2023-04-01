@@ -1,4 +1,4 @@
-export default function Features() {
+ function Features() {
   return (
     <section id="features" className="py-12">
       <div className="max-w-xl px-4 py-12 mx-auto sm:px-6 lg:max-w-6xl lg:px-8">
@@ -111,3 +111,4 @@ export default function Features() {
     </section>
   );
 }
+export default Features;

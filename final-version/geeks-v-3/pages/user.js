@@ -8,7 +8,7 @@ import Head from "next/head";
 import { NextSeo } from "next-seo";
 
 
-export default function user() {
+ function user() {
     return (
    
         <div>
@@ -211,3 +211,5 @@ export default function user() {
     )
 
 }
+
+export default user;

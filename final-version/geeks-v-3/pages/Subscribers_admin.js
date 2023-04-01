@@ -2,7 +2,7 @@ import React from 'react'
 import { NextSeo } from "next-seo";
 import Adminbar from '@/components/Adminbar';
 
-export default function Subscribers_admin() {
+ function Subscribers_admin() {
   return (
     <div>
       <Adminbar />
@@ -196,3 +196,5 @@ export default function Subscribers_admin() {
 </div>
     ) ;
 }
+
+export default Subscribers_admin;

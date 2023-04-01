@@ -2,7 +2,7 @@ import React from 'react'
 import { useState, useEffect } from "react";
 import { useTheme } from "next-themes";
 
- function Sidebar() {
+ function Adminbar() {
     const [navbarOpen, setNavbarOpen] = useState(false);
   const [mounted, setMounted] = useState(false);
   const { theme, setTheme } = useTheme();
@@ -100,4 +100,4 @@ import { useTheme } from "next-themes";
       </div>
   )
 }
-export default Sidebar;
+export default Adminbar;

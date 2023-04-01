@@ -3,7 +3,7 @@ import Footer from "../components/Footer";
 import Head from "next/head";
 import Link from "next/link";
 
-export default function Error() {
+ function Error() {
   return (
     <div className="bg-white dark:bg-black">
       <Header />
@@ -34,3 +34,4 @@ export default function Error() {
     </div>
   );
 }
+export default Error;

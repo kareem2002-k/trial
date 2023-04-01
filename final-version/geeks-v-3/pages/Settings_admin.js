@@ -3,7 +3,7 @@ import Sidebar from '../components/Sidebar'
 import { useState, useEffect } from "react";
 import { useTheme } from "next-themes";
 import Adminbar from '../components/Adminbar'
-function  Settings () {
+function  Settingsa () {
     const [navbarOpen, setNavbarOpen] = useState(false);
   const [mounted, setMounted] = useState(false);
   const { theme, setTheme } = useTheme();
@@ -73,4 +73,4 @@ function  Settings () {
     )
     }
     
-    export default Settings;
+    export default Settingsa;
